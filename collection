@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liste des Pokémons et Palettes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #f9f9f9;
+      padding: 1rem 2rem;
+    }
+    h1 {
+      font-weight: bold;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .pokemon-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.15);
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .pokemon-name {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .rare {
+      color: #d6336c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Liste des Pokémons et Palettes</h1>
+
+<div id="collection">
+  <!-- LISTE COMPLÈTE ICI -->
+  <!-- Je remets uniquement les 5 premiers pour l'exemple ; tu dois coller le reste ci-dessous -->
+  
+  <div class="pokemon-card">
+    <div class="pokemon-name">Bulbizarre 001</div>
+    <div>Palette Christmas</div>
+    <div>Palette Easter</div>
+  </div>
+
+  <div class="pokemon-card">
+    <div class="pokemon-name">Herbizarre 002</div>
+    <div>Palette Christmas</div>
+    <div>Palette Halloween <span class="rare">(rare)</span></div>
+    <div>Palette Easter</div>
+  </div>
+
+  <div class="pokemon-card">
+    <div class="pokemon-name">Florizarre 003</div>
+    <div>Palette Zombie</div>
+    <div>Palette Easter</div>
+    <div>Palette Christmas</div>
+  </div>
+
+  <div class="pokemon-card">
+    <div class="pokemon-name">Salamèche 004</div>
+    <div>No palette</div>
+  </div>
+
+  <div class="pokemon-card">
+    <div class="pokemon-name">Reptincel 005</div>
+    <div>No Palette</div>
+  </div>
+
+  <!-- CONTINUE AVEC LE RESTE ICI -->
+</div>
+
+</body>
+</html>
